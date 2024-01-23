@@ -1,0 +1,45 @@
+body {
+  background-image: url(./IMG/pexels-timur-saglambilek-87223.jpeg);
+  color: #fff;
+  font-family: "Arboria-Medium", sans-serif;
+  text-align: justify;
+  padding: 20%;
+  font-size: 10px;
+  font-weight: bold;
+  width: 400px;
+  height: 250px;
+  margin: 80px auto;
+}
+
+.buttonback {
+  background-color: #000; /* Gold */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+/* Responsive styles using @media queries */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10%;
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .buttonback {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    padding: 15%;
+  }
+}
